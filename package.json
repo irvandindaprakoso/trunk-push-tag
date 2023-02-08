@@ -1,0 +1,28 @@
+{
+  "name": "trunk-push-tag",
+  "version": "1.0.0",
+  "description": "automate generate tag and push to server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irvandindaprakoso/trunk-push-tag.git"
+  },
+  "keywords": [
+    "trunk",
+    "push",
+    "tag"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irvandindaprakoso/trunk-push-tag/issues"
+  },
+  "homepage": "https://github.com/irvandindaprakoso/trunk-push-tag#readme",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "prompt-sync": "^4.2.0"
+  }
+}
