@@ -79,7 +79,6 @@ async function main() {
 
   const { confirm } = await inquirer.prompt([{ type: "confirm", name: "confirm", message: `Are you sure want to create tag ${newTag} for branch ${branch} ?`, default: false }]);
   if (confirm) {
-
     try {
       console.info(`Creating tag: ${newTag}`);
       execSync(`git tag -a ${newTag} -m "${commit}"`);
